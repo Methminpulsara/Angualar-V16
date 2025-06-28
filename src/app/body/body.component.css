@@ -1,0 +1,10 @@
+:host {
+  flex: 1;
+  display: block;
+}
+
+.container {
+  background-color: aqua;
+  height: 100%;
+  padding: 40px;
+}

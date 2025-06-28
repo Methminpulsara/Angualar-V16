@@ -1,11 +1,6 @@
-
-<div class="side-nav-container">
-
-  <h1>{{childerenName}}</h1>
-
-  <app-side-bar name="Home" (childEvent)="onClick($event)" ></app-side-bar>
-  <app-side-bar name="profile" (childEvent)="onClick($event)" ></app-side-bar>
-    <app-side-bar name="about" (childEvent)="onClick($event)" ></app-side-bar>
-
-
-</div>
+<aside class="side-nav-container">
+  <h2>{{childerenName}}</h2>
+  <button class="nav-button" routerLink="home" (click)="onClick('Home')">Home</button>
+  <button class="nav-button" routerLink="profile" (click)="onClick('Profile')">Profile</button>
+  <button class="nav-button" routerLink="setting" (click)="onClick('About')">About</button>
+</aside>
